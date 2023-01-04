@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--primary);
+}
+@import url("https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap");
+:root {
+  --primary: "Happy Monkey", cursive;
+}
+
+.card_wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(216, 231, 250);
+  border-bottom: 10px solid rgb(189, 179, 227);
+  padding: 40px;
+  column-gap: 70px;
+  margin: 40px auto;
+  border-radius: 5px;
+  width: 50%;
+}
+img {
+  width: 280px;
+  border-radius: 5px;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  row-gap: 40px;
+  color: rgb(83, 104, 132);
+}
+.about :nth-child(1) {
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+.about :nth-child(2) {
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+.about :nth-child(3) {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
